@@ -1,0 +1,33 @@
+@media (min-width: 320px) and (max-width: 768px) {
+    body {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 425px) {
+
+    #container {
+        padding: 25px;
+    }
+
+    .ghost-list, ul, ol {
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 320px) {
+
+    #container {
+
+        & .main > section > h1 {
+            font-size: 26px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    }
+    .nutrition-area ul {
+        margin-top: 0;
+        padding-left: 0;
+    }
+}
