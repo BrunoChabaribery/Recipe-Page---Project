@@ -27,6 +27,8 @@ body {
 
     & h1 {
         font-size: 40px;
+        margin-top: 30px;
+        margin-bottom: 20px;
         font-family: 'Young Serif';
         font-weight: 400;
         color: #2A2927;
