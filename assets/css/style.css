@@ -81,24 +81,6 @@ body {
     }
 }
 
-.nutrition-area {
-    display: flex;
-
-    & ul {
-        flex: 1;
-        list-style: none;
-
-        & li {
-            margin-top: 20px;
-            margin-bottom: 20px;
-        }
-    }
-    & .list-color {
-        color: #894E3C;
-        font-weight: bold;
-    }
-}
-
 table {
     display: flex;
 }
